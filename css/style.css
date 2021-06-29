@@ -4,10 +4,6 @@ body {
   background-size: cover;
   margin:0;
 }
-#miGranCaja {
-  width: 100%;
-  margin: auto;
-}
 .container-fluid h1{
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -17,40 +13,17 @@ body {
 
     }
 
-  .container-fluid {
-  background-image: url(/imagenes/fondoPiano.jpg);
-  margin: auto 0;
-  width: 100%;
- background-size:contain;
+  #piano {
+  background-image: url(imagenes/fondoPiano.jpg);
+  background-size: contain;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
-  
 
-}
-.navbar{
-  font-size:20px;
-  color: black;
-
-}
-.nav-link{
-  border-right: 2px solid black;
-  padding-left: 0;
-  color:black;
-  display: flex;
-  list-style: none;
-  padding: 0%;
-  margin-left: 40px;
-  display: flex;
-  justify-content: center;
-
+    
 }
 
-#navbarNavAltMarkup{
-  display: flex;
-  justify-content: center;
-}
 /*estilo perteneciente a footer*/
 .footer_style {
     background-color: black;
