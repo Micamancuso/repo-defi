@@ -13,7 +13,7 @@ body {
     }
 
   #piano {
-  background-image: url(imagenes/fondoPiano.jpg);
+  background-image: url(../imagenes/fondoPiano.jpg);
   background-size: contain;
   height: 300px;
   display: flex;
