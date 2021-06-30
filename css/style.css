@@ -39,48 +39,26 @@ body {
 }
 
 /*Estilo correspondiente a la pag index*/
-.sobreMi {
-  padding: 50px;
-  display: flex;
+.col{
+  margin: 40px;
+}
+.col img{
+  width: 100%;
+  border-radius: 1em;
 }
 
-.sobreMi h2 {
-  color: black;
-  font-family: "Dancing Script", cursive;
-  text-align: center;
-  margin: 5px;
-  font-size: 40px;
+.sobreMi{
+  font-family:"Dancing Script", cursive;
 }
 
-.sobreMi p {
-  color: rgb(0, 0, 0);
-  font-style: italic;
-  text-align: center;
+.col p{
   font-size: 20px;
-  line-height: 35px;
-}
-
-.sobreMi img {
-  width: 450px;
-  height: 450px;
-  margin: 10px;
-  transition: 5s;
-  border-radius: 2em;
-}
-.sobreMi img:hover {
-  height: 200px;
-  width: 200px;
+ text-align: center;
+ width: 100%;
 }
 
 /*Estilo correspondiente a pag muestras*/
-.carousel-item{
-  width: 640px; 
- height: 600px; 
-}
-.carousel-inner{
-width: 640px; 
-height: 600px; 
-}
+
 #carouselExampleIndicators{
   display:flex;
   justify-content: center;
@@ -299,7 +277,6 @@ main h2{
 /*correspondiente a page contacto*/
 
 .contacto{
-  width: 1200px;
   padding: 40px;
 }
 
