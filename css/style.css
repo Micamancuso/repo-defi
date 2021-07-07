@@ -20,7 +20,6 @@ body {
   align-items: center;
   justify-content: center;
 
-    
 }
 
 /*estilo perteneciente a footer*/
@@ -49,6 +48,7 @@ body {
 
 .sobreMi{
   font-family:"Dancing Script", cursive;
+  
 }
 
 .col p{

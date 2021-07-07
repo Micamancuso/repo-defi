@@ -1,0 +1,74 @@
+
+/*variables*/
+
+    $titulos: bold 70px/1.5 "Dancing Script";
+    $color-parrafos: black;
+    $fuente-parrafo: 20px;
+    $color-fondo:black;
+    $color-blanco: white;
+
+  
+    /*NAV*/
+    #piano {
+    background-image: url(../imagenes/fondoPiano.jpg);
+    background-size: contain;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+         
+    }
+      
+/*EXTEND*/
+
+      .tituloPrincipal{
+        color: $color-blanco;
+        text-align: center;
+        font:$titulos;  
+        }
+     
+      /*FOOTER*/
+      .footer_style {
+        @extend .tituloPrincipal;
+        background-color: $color-fondo;
+        font-size: $fuente-parrafo; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+    }
+    
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      opacity: 0.8;
+    }
+
+    /*SOBRE MI*/
+    .col{
+        margin: 40px;
+
+        img{
+         width: 100%;
+        border-radius: 1em;
+        }
+
+        p{
+         color:$color-parrafos;
+         text-align: center;
+         width: 100%;
+         font-size: $fuente-parrafo;
+            }
+        }
+
+
+        @mixin section ($fuente,$center) {
+         font-family: $fuente; 
+         text-align: $center;
+        }
+
+    .sobreMi{
+      @include section("Dancing Script",center);
+    }
+            
+  
+      
