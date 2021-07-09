@@ -38,241 +38,111 @@ body {
 }
 
 /*Estilo correspondiente a la pag index*/
-.col{
-  margin: 40px;
-}
-.col img{
-  width: 100%;
-  border-radius: 1em;
-}
 
-.sobreMi{
-  font-family:"Dancing Script", cursive;
-  
-}
-
-.col p{
-  font-size: 20px;
- text-align: center;
- width: 100%;
-}
-
-/*Estilo correspondiente a pag muestras*/
-
-#carouselExampleIndicators{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding:30px;
-  margin-right: 0%;
-  display: flex;
-  align-items: center;
-}
-
-#grid {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: 300px 300px 400px 100px;
-  column-gap: 10px;
-  row-gap: 20px;
-  grid-template-areas:
-    "cajaUno cajaCuatro cajaCinco"
-    "cajaUno cajaCuatro cajaCinco"
-    "cajaDos cajaDos cajaTres";
-  width: 1200px;
-  margin: 0 auto;
-  padding-top: 30px;
- 
-}
-
-#cajaUno {
-  grid-area: cajaUno;
-}
-#cajaUno img {
-  border-radius: 1em;
- max-width: 100%;
-  object-fit: cover;
-  align-items: center;
-}
-
-#cajaDos {
-  grid-area: cajaDos;
-}
-#cajaDos img {
-  max-width: 100%;
-  border-radius: 1em;
-  height: 300px;
-  object-fit: cover;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  justi
-}
-
-#cajaTres {
-  grid-area: cajaTres;
-}
-
-#cajaTres p{
+.sectiontitle__title {
   font-family: "Dancing Script", cursive;
+  color:black;
   text-align: center;
-  font-size: 30px;
-  background-color: rgb(211, 201, 201);
-  margin: 10px;
-  border-radius: 2em;
+  font-size: 50px;
+  padding: 3%;
+  }
 
-}
-#cajaTres img {
-  width: 70%;
-  border-radius: 1em;
-  object-fit:unset;
-  
-}
-#cajaCuatro {
-  grid-area: cajaCuatro;
-}
-#cajaCuatro img {
-  max-width: 100%;
-  border-radius: 1em;
-  height: 400px;
-}
-
-#cajaCinco {
-  grid-area: cajaCinco;
-}
-#cajaCinco img {
-  max-width: 100%;
-  border-radius: 1em;
-  object-fit:cover;
-}
-/*page Reseñas*/
-
-main h1{
-  padding-top: 20px;
+  .sectiontitle__subtitle {
+  font-size: 40px;
   color: black;
   font-family: "Dancing Script", cursive;
   text-align: center;
-  margin: 5px;
-  font-size: 40px;
-}
-main h2{
-  color: rgb(111, 111, 111);
-  font-family: "Dancing Script", cursive;
-  text-align: center;
-  margin: 5px;
-  font-size: 30px;
-}
-#gridDos{
-  display:grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  grid-template-rows: 200px 200px 200px 200px;
-  column-gap: 15px;
-  row-gap: 10px;
-  grid-template-areas: "boxUno boxDos boxDos"
-                      "boxUno boxTres boxTres"
-                      "boxCuatro boxCinco boxCinco"
-                      "boxCuatro boxSeis boxSeis";
-  width: 1200px;
-  margin:0 auto;
-  padding: 50px;
-  
-}
-#reseñaUno{
-  grid-area:boxUno;
-  
+  padding-bottom: 30px;
+  }
+  .quienes_description-texto {
+      font-size:  25px;
+      font-family: "Dancing Script", cursive;
+      color: rgb(49, 47, 47)
+      padding-top: 70px;
+      
 
-
-}
-#reseñaUno img{
-  border-radius: 1em;
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-  align-items: center;
-  border:1px solid rgb(102, 96, 96);
-}
-
-
-#reseñaDos{
-  grid-area: boxDos;
-  background-image: radial-gradient(rgb(175, 191, 230),rgb(192, 185, 185));
-  border-radius: 1em;
-  border:1px solid rgb(102, 96, 96);
-  align-self:center;  
-  max-width: 100%;
-  
-
-}   
-#reseñaDos p{
-  font-style: italic;
-  color:black;
-  font-size: 20px;
-  text-align: center;
-  
-
-  
-
-}
-#reseñaTres{
-  grid-area:boxTres;
-  border-radius: 1em;
-  height: 150px;
-  border:1px solid rgb(102, 96, 96);
-  background-image: radial-gradient(rgb(175, 191, 230),rgb(192, 185, 185));
-  max-width: 100%;
-}
-
-#reseñaTres p{
-  font-style: italic;
-  color:black;
-  font-size: 20px;
-  text-align: center;
-
-}
-#reseñaCuatro{
-  grid-area:boxCuatro;
- }
-
-#reseñaCuatro img{
-  border-radius: 1em;
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-  align-items: center;
-  border:1px solid rgb(102, 96, 96);
-
-}
-
-#reseñaCinco{
-  grid-area:boxCinco;
-  background-image: radial-gradient(rgb(175, 191, 230),rgb(192, 185, 185));
-  border-radius: 1em;
-  border:1px solid rgb(102, 96, 96);
-  max-width: 100%;
-  align-self:center;
-  
+  }
+  .quienes_description-foto {
+      border-radius: 2em;
+      padding-bottom: 40px;
+  }
+  .quienessomos_texto{
+      text-align: center;
+      padding-bottom: 25px;
+  }
+  .quienessomos_texto img{
+      border-radius: 2em;
   }
 
-#reseñaCinco p{
-  font-style: italic;
-  color:black;
-  font-size: 20px;
+
+/*Estilo correspondiente a pag muestras*/
+
+#porfolio {
+  padding-top: 40px;
+
+}
+  .row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.muestras-h2 {
   text-align: center;
+  font-family:  "Dancing Script", cursive;
+  padding-bottom: 50px;
+}
+.col-lg-3 img:hover {
+  transform: scale(1.05);
+
 }
 
-#reseñaSeis{
-  grid-area: boxSeis;
-  background-image: radial-gradient(rgb(175, 191, 230),rgb(192, 185, 185));
-  border-radius: 1em;
-  border:1px solid rgb(102, 96, 96);
-  height: 150px;
- }
- #reseñaSeis p{
-  font-style: italic;
-  color:black;
-  font-size: 20px;
+.btn {
+  background: #333;
+  color: white;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  margin-left: 230px;
+ 
+
+  
+ 
+}
+
+/*page Reseñas*/
+
+.resenias__titulo {
   text-align: center;
- }
+  padding-bottom: 10px;
+  font-family:"Dancing Script", cursive;
+  font-size: 40px;
+  }
+  .resenias {
+  margin: 5em auto;
+  }
+  .resenias__profile {
+  background-color: #efefef;
+  padding: 3em 2em;
+  }
+  .resenias__foto {
+  top: -4em;
+  border: 10px solid white;
+  margin-bottom: 1em;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  margin-top: -6em;
+  }
+  .resenias__alumno{
+      font-family:"Dancing Script", cursive;
+      font-size: 25px;
+  }
+  .resenias__texto{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
 
 /*correspondiente a page contacto*/
 
@@ -296,37 +166,65 @@ input:focus{
     color: #484848;
 }
 /*correspondiente a page clases*/
-.infoCero{
-  display:flex;
-  justify-content: center;
-  padding: 30px;
 
+.feature{
+  padding-top: 50px;
 }
-
-.infoUno{
-  display:flex;
-  justify-content: center;
-  border-radius: 200em;
-  background-color: rgb(209, 203, 203);
-  width: 750px;
-  height: 400px;
-  flex-direction: column;
-  padding: 30px;
-  margin:20px;
+.feature img {
+  max-width: 77%;
+  cursor: pointer;
+  border-radius: 2em;
+}
+.title {
   text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family:  "Dancing Script", cursive;
 
 }
-.infoUno p{
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  font-style: italic;
- align-self: center;
+.col-md-6{
+  font-family:"Dancing Script", cursive;
 }
 
-.infoDos img{
-  margin-left: 0;
-  width: 700px;
-  height: 500px;
-  border-radius: 10em;
-  padding: 30px;
+.col-md-6 h6{
+  font-family:"Dancing Script", cursive;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.col-md-6 p{
+   font-size: 20px;
+   text-align: center;
+   color:rgb(92, 88, 88);
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 15px;
+}
+.service-box {
+  padding: 0 35px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 4s;
+}
+.container{
+ padding:50px;
+}
+
+.service-box:hover{
+   background-color: gray;
+}
+.col-md-8{
+  text-align: right;
+   font-family: "Dancing Script", cursive; 
+   padding-bottom: 40px;
+}
+
+.col-md-8 h2{
+  font-size: 40px;
+  text-align: right;
+
 }
