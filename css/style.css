@@ -109,6 +109,7 @@ input:focus {
 .quienes_description {
   padding-bottom: 50px; }
 
+/*page Reseñas*/
 .resenias__titulo {
   text-align: center;
   padding-bottom: 10px;
@@ -138,6 +139,7 @@ input:focus {
 .resenias__texto {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
+/*correspondiente a page clases*/
 .feature {
   padding-top: 50px; }
   .feature img {
