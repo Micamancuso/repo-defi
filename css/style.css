@@ -1,102 +1,67 @@
-/* Estilos pertinentes a todas las secciones*/
+@charset "UTF-8";
 body {
   background-color: whitesmoke;
   background-size: cover;
-  margin:0;
-}
-#piano h1{
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 70px;
-    }
+  margin: 0; }
 
-  #piano {
-  background-image: url(../imagenes/fondoPiano.jpg);
-  background-size: contain;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#iconosFooter img {
+  height: 40px; }
 
-}
-
-/*estilo perteneciente a footer*/
 .footer_style {
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    
-}
+  background-color: black;
+  color: white;
+  font-size: 15px; }
 
 .whatsapp {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0.8;
-}
+  opacity: 0.8; }
+
+#piano {
+  background-image: url(../imagenes/fondoPiano.jpg);
+  background-size: contain;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #piano h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px; }
 
 /*Estilo correspondiente a la pag index*/
-
 .sectiontitle__title {
   font-family: "Dancing Script", cursive;
-  color:black;
+  color: black;
   text-align: center;
   font-size: 50px;
-  padding: 3%;
-  }
+  padding: 3%; }
 
-  .sectiontitle__subtitle {
+.sectiontitle__subtitle {
   font-size: 40px;
   color: black;
   font-family: "Dancing Script", cursive;
   text-align: center;
-  padding-bottom: 30px;
-  }
-  .quienes_description-texto {
-      font-size:  25px;
-      font-family: "Dancing Script", cursive;
-      color: rgb(49, 47, 47)
-      padding-top: 70px;
-      
+  padding-bottom: 30px; }
 
-  }
-  .quienes_description-foto {
-      border-radius: 2em;
-      padding-bottom: 40px;
-  }
-  .quienessomos_texto{
-      text-align: center;
-      padding-bottom: 25px;
-  }
-  .quienessomos_texto img{
-      border-radius: 2em;
-  }
+.quienes_description-texto {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  color: #312f2f;
+  padding-top: 70px; }
 
+.quienes_description-foto {
+  border-radius: 2em;
+  padding-bottom: 40px; }
 
-/*Estilo correspondiente a pag muestras*/
-
-#porfolio {
-  padding-top: 40px;
-
-}
-  .row {
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.muestras-h2 {
+.quienessomos_texto {
   text-align: center;
-  font-family:  "Dancing Script", cursive;
-  padding-bottom: 50px;
-}
-.col-lg-3 img:hover {
-  transform: scale(1.05);
-
-}
+  padding-bottom: 25px; }
+  .quienessomos_texto img {
+    border-radius: 2em; }
 
 .btn {
   background: #333;
@@ -104,125 +69,120 @@ body {
   box-sizing: border-box;
   text-decoration: none;
   border: 0;
-  margin-left: 230px;
- 
- 
-}
+  margin-left: 230px; }
 
-/*page Reseñas*/
+.contacto {
+  padding: 40px; }
+
+input:focus {
+  width: 200px;
+  font-size: 15px; }
+
+.header {
+  color: #535455;
+  font-size: 27px;
+  padding: 10px; }
+
+.bigicon {
+  font-size: 35px;
+  color: #484848; }
+
+#porfolio {
+  padding-top: 40px; }
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.muestras-h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 50px;
+  font-size: 50px; }
+
+.col-lg-3 img:hover {
+  transform: scale(1.05); }
+
+.quienes_description {
+  padding-bottom: 50px; }
 
 .resenias__titulo {
   text-align: center;
   padding-bottom: 10px;
-  font-family:"Dancing Script", cursive;
-  font-size: 40px;
-  }
-  .resenias {
-  margin: 5em auto;
-  }
-  .resenias__profile {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px; }
+
+.resenias {
+  margin: 5em auto; }
+
+.resenias__profile {
   background-color: #efefef;
-  padding: 3em 2em;
-  }
-  .resenias__foto {
+  padding: 3em 2em; }
+
+.resenias__foto {
   top: -4em;
   border: 10px solid white;
   margin-bottom: 1em;
   width: 8em;
   height: 8em;
   border-radius: 50%;
-  margin-top: -6em;
-  }
-  .resenias__alumno{
-      font-family:"Dancing Script", cursive;
-      font-size: 25px;
-  }
-  .resenias__texto{
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+  margin-top: -6em; }
 
+.resenias__alumno {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px; }
 
-/*correspondiente a page contacto*/
+.resenias__texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-.contacto{
-  padding: 40px;
-}
+.feature {
+  padding-top: 50px; }
+  .feature img {
+    max-width: 77%;
+    cursor: pointer;
+    border-radius: 2em; }
 
-input:focus{
-  width: 200px;
-  font-size: 15px;
-}
-
-.header {
-    color: #535455;
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
-    font-size: 35px;
-    color: #484848;
-}
-/*correspondiente a page clases*/
-
-.feature{
-  padding-top: 50px;
-}
-.feature img {
-  max-width: 77%;
-  cursor: pointer;
-  border-radius: 2em;
-}
 .title {
   text-align: center;
   font-weight: bold;
   margin-bottom: 40px;
-  font-family:  "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive; }
 
-}
-.col-md-6{
-  font-family:"Dancing Script", cursive;
-}
-
-.col-md-6 h6{
-  font-family:"Dancing Script", cursive;
-  font-size: 25px;
-  font-weight: bold;
-
-}
-
-.col-md-6 p{
-   font-size: 20px;
-   text-align: center;
-   color:rgb(92, 88, 88);
-}
+.col-md-6 {
+  font-family: "Dancing Script", cursive; }
+  .col-md-6 p {
+    font-size: 25px;
+    text-align: center;
+    color: #5c5858; }
+  .col-md-6 h6 {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: bold; }
 
 .subtitle {
   text-align: center;
   margin-bottom: 70px;
-  font-size: 15px;
-}
+  font-size: 15px; }
+
 .service-box {
   padding: 0 35px;
   cursor: pointer;
   margin-bottom: 10px;
-  transition: 4s;
-}
-.container{
- padding:50px;
-}
+  transition: 4s; }
 
-.service-box:hover{
-   background-color: gray;
-}
-.col-md-8{
+.container {
+  padding: 50px; }
+
+.service-box:hover {
+  background-color: gray; }
+
+.col-md-8 {
   text-align: right;
-   font-family: "Dancing Script", cursive; 
-   padding-bottom: 40px;
-}
-
-.col-md-8 h2{
-  font-size: 40px;
-  text-align: right;
-
-}
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 40px; }
+  .col-md-8 h2 {
+    font-size: 40px;
+    text-align: right; }

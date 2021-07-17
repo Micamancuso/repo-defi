@@ -1,0 +1,36 @@
+ /*Estilo correspondiente a la pag index*/
+
+ .sectiontitle__title {
+    font-family: $font-principal;
+    color:black;
+    text-align: center;
+    font-size: $sizetitulo-principal;
+    padding: 3%;
+    }
+  
+    .sectiontitle__subtitle {
+    font-size: 40px;
+    color: black;
+    font-family: $font-principal;
+    text-align: center;
+    padding-bottom: 30px;
+    }
+    .quienes_description-texto {
+        font-size:  25px;
+        font-family: $font-principal;
+        color: rgb(49, 47, 47);
+        padding-top: 70px;
+        
+    }
+    .quienes_description-foto {
+        border-radius: 2em;
+        padding-bottom: 40px;
+    }
+    .quienessomos_texto{
+        text-align: center;
+        padding-bottom: 25px;
+        img{
+          border-radius: 2em;
+  
+        }
+    }
