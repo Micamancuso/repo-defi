@@ -1,20 +1,22 @@
 #porfolio {
     padding-top: 40px;
-  
+    .muestras-h2 {
+      text-align: center;
+      font-family:  $font-principal;
+      padding-bottom: 50px;
+      font-size: $sizetitulo-principal;
+      .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    
+    }
+    }
   }
-    .row {
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .muestras-h2 {
-    text-align: center;
-    font-family:  $font-principal;
-    padding-bottom: 50px;
-    font-size: $sizetitulo-principal;
-  }
+   
+
   .col-lg-3 img:hover {
     transform: scale(1.05);
   

@@ -1,21 +1,19 @@
 
-#iconosFooter{
-    img{
-      height: 40px;
-    }
-}
-
 .footer_style {
     background-color: $background-footer;
     color: white;
     font-size: 15px;
-  
-    
+    #iconosFooter{
+      img{
+        height: 40px;
+      }
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      opacity: 0.8;
+      }
   }
   
-  .whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0.8;
-  }
+ 

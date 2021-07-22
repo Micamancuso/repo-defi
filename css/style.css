@@ -4,19 +4,17 @@ body {
   background-size: cover;
   margin: 0; }
 
-#iconosFooter img {
-  height: 40px; }
-
 .footer_style {
   background-color: black;
   color: white;
   font-size: 15px; }
-
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0.8; }
+  .footer_style #iconosFooter img {
+    height: 40px; }
+  .footer_style .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.8; }
 
 #piano {
   background-image: url(../imagenes/fondoPiano.jpg);
@@ -89,19 +87,17 @@ input:focus {
 
 #porfolio {
   padding-top: 40px; }
-
-.row {
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
-
-.muestras-h2 {
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  padding-bottom: 50px;
-  font-size: 50px; }
+  #porfolio .muestras-h2 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    padding-bottom: 50px;
+    font-size: 50px; }
+    #porfolio .muestras-h2 .row {
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px; }
 
 .col-lg-3 img:hover {
   transform: scale(1.05); }
@@ -110,34 +106,29 @@ input:focus {
   padding-bottom: 50px; }
 
 /*page Reseñas*/
-.resenias__titulo {
-  text-align: center;
-  padding-bottom: 10px;
-  font-family: "Dancing Script", cursive;
-  font-size: 50px; }
-
 .resenias {
   margin: 5em auto; }
-
-.resenias__profile {
-  background-color: #efefef;
-  padding: 3em 2em; }
-
-.resenias__foto {
-  top: -4em;
-  border: 10px solid white;
-  margin-bottom: 1em;
-  width: 8em;
-  height: 8em;
-  border-radius: 50%;
-  margin-top: -6em; }
-
-.resenias__alumno {
-  font-family: "Dancing Script", cursive;
-  font-size: 25px; }
-
-.resenias__texto {
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .resenias .resenias__titulo {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px; }
+  .resenias .resenias__profile {
+    background-color: #efefef;
+    padding: 3em 2em; }
+    .resenias .resenias__profile .resenias__foto {
+      top: -4em;
+      border: 10px solid white;
+      margin-bottom: 1em;
+      width: 8em;
+      height: 8em;
+      border-radius: 50%;
+      margin-top: -6em; }
+    .resenias .resenias__profile .resenias__alumno {
+      font-family: "Dancing Script", cursive;
+      font-size: 25px; }
+    .resenias .resenias__profile .resenias__texto {
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 /*correspondiente a page clases*/
 .feature {

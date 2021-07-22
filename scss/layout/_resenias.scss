@@ -1,31 +1,34 @@
 /*page Reseñas*/
 
-.resenias__titulo {
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: $font-principal;
-    font-size: $sizetitulo-principal;
-    }
-    .resenias {
+.resenias {
     margin: 5em auto;
-    }
-    .resenias__profile {
-    background-color: #efefef;
-    padding: 3em 2em;
-    }
-    .resenias__foto {
-    top: -4em;
-    border: 10px solid white;
-    margin-bottom: 1em;
-    width: 8em;
-    height: 8em;
-    border-radius: 50%;
-    margin-top: -6em;
-    }
-    .resenias__alumno{
+    .resenias__titulo {
+        text-align: center;
+        padding-bottom: 10px;
         font-family: $font-principal;
-        font-size: $size-parrafo;
+        font-size: $sizetitulo-principal;
+        }
+        .resenias__profile {
+            background-color: #efefef;
+            padding: 3em 2em;
+            .resenias__foto {
+                top: -4em;
+                border: 10px solid white;
+                margin-bottom: 1em;
+                width: 8em;
+                height: 8em;
+                border-radius: 50%;
+                margin-top: -6em;
+                }
+                .resenias__alumno{
+                    font-family: $font-principal;
+                    font-size: $size-parrafo;
+                }
+                .resenias__texto{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
     }
-    .resenias__texto{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+
+    
+ 
